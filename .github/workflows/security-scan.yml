@@ -10,7 +10,7 @@ permissions:
   pull-requests: write
 
 jobs:
-  zap_scan:
+  zap-scan:                     
     runs-on: ubuntu-latest
     name: Run OWASP ZAP Baseline Scan
     steps:
